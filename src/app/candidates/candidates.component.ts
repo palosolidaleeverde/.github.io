@@ -12,4 +12,7 @@ export class CandidatesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  prova(): void {
+    document.getElementById('carousl').scrollIntoView();
+  }
 }
