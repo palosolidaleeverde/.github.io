@@ -21,6 +21,9 @@ nav a {
     color: white;
     cursor: pointer;
 }
+.icon {
+    fill: #17324d!important;
+}
 
 nav .animation {
     position: absolute;
@@ -82,7 +85,6 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 }
 
 body {
-    font-size: 12px;
     font-family: sans-serif;
     background: #2c3e50;
 }
@@ -102,21 +104,32 @@ img.logo {
 }
 
 .stripe-one {
-    border: 1px solid black;
+    font-size: 24px;
+    font-family: sans-serif;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
     width: 100%;
     padding: 10%;
     background-color: white!important;
 }
 
 .stripe-two {
-    border: 1px solid black;
+    font-size: 24px;
+    font-family: sans-serif;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
     color: white;
     width: 100%;
     padding: 10%;
     background-color: red!important;
 }
+.header {
+    border-bottom: 3px solid black;
+}
 
 p {
+    font-size: 20px;
+    font-family: sans-serif;
     position: absolute;
     bottom: 20px;
     width: 100%;
@@ -130,16 +143,26 @@ span {
     color: #2BD6B4;
 }
 
-.container {
-    width: 150%;
+.container-psv {
+    margin: 0 15% 0 15%!important;
     padding-top: 40px;
     min-height: 100vh;
     max-height: 100%;
     background-color: red!important;
 }
 
+div#footer {
+    border-top: 3px solid black;
 
-
-
-
-
+    font-size: 24px;
+    font-family: sans-serif;
+    background: white;
+    padding: 2rem 0 2rem 0;
+    bottom: 0;
+    position: relative;
+    margin: 0 15% 0 15%!important;
+    text-align: center;
+}
+.table-wh{
+    background-color: white;
+}

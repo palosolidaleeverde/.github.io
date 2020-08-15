@@ -1,14 +1,19 @@
-<div class="container">
-  <img src="./assets/images/logo.jpeg" class="logo" width="300" height="300">
-  <h1>Palo Verde e Solidale</h1>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#chisiamo">Chi siamo</a>
-    <a href="#candidati">Candidati</a>
-    <a href="#">Documenti</a>
-    <a href="#">Contatti</a>
-    <div class="animation start-home"></div>
-  </nav>
+<div class="container-psv">
+  <div class="header">
+    <div class="d-flex justify-content-center"><img src="./assets/images/logo.jpeg" width="300" height="300"> </div>
+    <div>
+    </div>
+    <h1>Palo Verde e Solidale</h1>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#chisiamo">Chi siamo</a>
+      <a href="#candidati">Candidati</a>
+      <a href="#documenti">Documenti</a>
+      <a href="#footer">Contatti</a>
+      <div class="animation start-home"></div>
+    </nav>
+  </div>
   <div class="stripe-one" id="home">
     <h2>Home</h2>
     Con il termine lorem ipsum si indica un testo segnaposto utilizzato da grafici, designer, programmatori e tipografi
@@ -45,5 +50,58 @@
   <div class="stripe-one" id="candidati">
     <h2>Candidati</h2>
     <app-candidates></app-candidates>
+  </div>
+  <div class="stripe-two" id="documenti">
+    <h2>Documenti</h2>
+    <table class="table table-wh">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Documento</th>
+          <th scope="col">Formato</th>
+          <th scope="col">Scarica</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>File 1</td>
+          <td>png</td>
+          <td> <img src="./assets/svg/download.svg" style="margin-left:5px" width="50" height="50">
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>File 2</td>
+          <td>pdf</td>
+          <td> <img src="./assets/svg/download.svg" style="margin-left:5px" width="50" height="50">
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>File 3</td>
+          <td>.xsd</td>
+          <td> <img src="./assets/svg/download.svg" style="margin-left:5px" width="50" height="50">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div id="footer">
+  <div class="d-flex justify-content-around">
+    <div>
+      <b><i>Contatti Utili:</i></b><br>
+      <b>Dottor House: </b> 3423423434234<br>
+      <b>brad Pitt: </b> 3423423434234<br>
+      <b>Miriam Leone: </b> 3423423434234<br><br>
+      <b>Email:</b> <a href="mailto: palosolidaleeverde@gmail.com">palosolidaleeverde@gmail.com</a>
+    </div>
+    <div>
+      <b><i>I nostri Social</i></b><br>
+      <img src="./assets/svg/facebook.svg" style="margin-left:5px" width="50" height="50">
+      <img src="./assets/svg/twitter.svg" style="margin-left:5px" width="50" height="50">
+      <img src="./assets/svg/instagram.svg" style="margin-left:5px" width="50" height="50">
+    </div>
   </div>
 </div>
