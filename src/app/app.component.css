@@ -197,6 +197,10 @@ div#footer {
     nav a {
         font-size: 1rem;
     }
+    
+    .scompare{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -232,6 +236,9 @@ div#footer {
     nav a {
         font-size: 1rem;
         text-transform: uppercase;
+    }
+    .scompare{
+        display: '';
     }
 }
 
