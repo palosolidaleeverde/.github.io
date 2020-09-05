@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CandidatesComponent } from './candidates/candidates.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @NgModule({
   declarations: [
@@ -12,7 +14,9 @@ import { CandidatesComponent } from './candidates/candidates.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    CarouselModule,
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

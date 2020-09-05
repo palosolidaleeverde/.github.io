@@ -46,7 +46,7 @@
                         </div>
                     </figure>
                     <div class="desc_candidato">
-                        <b>Candidata Consigliere Comunale.</b><br>
+                        <b>Candidato Consigliere Comunale.</b><br>
                         <b>Nome:</b> Nunzio<br>
                         <b>Cognome:</b> Cutrone<br>
                         <b>Età:</b> 44<br>
@@ -181,7 +181,7 @@
                         </div>
                     </figure>
                     <div class="desc_candidato">
-                        <b>Candidata Consigliere Comunale.</b><br>
+                        <b>Candidato Consigliere Comunale.</b><br>
                         <b>Nome:</b> Luca<br>
                         <b>Cognome:</b> Gemmato<br>
                         <b>Età:</b> 23<br>
@@ -203,7 +203,7 @@
                         </div>
                     </figure>
                     <div class="desc_candidato">
-                        <b>Candidata Consigliere Comunale.</b><br>
+                        <b>Candidato Consigliere Comunale.</b><br>
                         <b>Nome:</b> Emanuele<br>
                         <b>Cognome:</b> Acquafredda<br>
                         <b>Età:</b> 24<br>
@@ -247,7 +247,7 @@
                         </div>
                     </figure>
                     <div class="desc_candidato">
-                        <b>Candidata Consigliere Comunale.</b><br>
+                        <b>Candidato Consigliere Comunale.</b><br>
                         <b>Nome:</b> Vito<br>
                         <b>Cognome:</b> Antonacci<br>
                         <b>Età:</b> 54<br>
@@ -348,48 +348,15 @@
                     <label for="slide-13"><img src="./assets/images/daniela de benedictis.jpeg"></label>
                 </li>
             </ul>
-            <div style="overflow-y:scroll;">
-                <ul class="carousel__thumbnails car-mb">
-                    <li>
-                        <label for="slide-1"><img src="./assets/images/baffone2.jpg">1</label>
-                    </li>
-                    <li>
-                        <label for="slide-2"><img src="./assets/images/nunzio.jpg">2</label>
-                    </li>
-                    <li>
-                        <label for="slide-3"><img src="./assets/images/dorotea.jpg">3</label>
-                    </li>
-                    <li>
-                        <label for="slide-4"><img src="./assets/images/sgobba.jpg">4</label>
-                    </li>
-                    <li>
-                        <label for="slide-5"><img src="./assets/images/cinotti fronte .jpg">5</label>
-                    </li>
-                    <li>
-                        <label for="slide-6"><img src="./assets/images/calemma.jpg">6</label>
-                    </li>
-                    <li>
-                        <label for="slide-7"><img src="./assets/images/magdabolognese.jpeg">7</label>
-                    </li>
-                    <li>
-                        <label for="slide-8"><img src="./assets/images/luca .jpg">8</label>
-                    </li>
-                    <li>
-                        <label for="slide-9"><img src="./assets/images/emanuele acquafredda.jpg">9</label>
-                    </li>
-                    <li>
-                        <label for="slide-10"><img src="./assets/images/eleonora.jpg">1</label>
-                    </li>
-                    <li>
-                        <label for="slide-11"><img src="./assets/images/vito1.jpg">1</label>
-                    </li>
-                    <li>
-                        <label for="slide-12"><img src="./assets/images/arianna front.jpg">1</label>
-                    </li>
-                    <li>
-                        <label for="slide-13"><img src="./assets/images/daniela de benedictis.jpeg">1</label>
-                    </li>
-                </ul>
+            <div>
+                <div class="">
+                    <div class="d-flex justify-content-center">
+                        <button  [disabled]="isFirst()" (click)="goToLeft()" type="button" style="margin-right:1rem" class="btn btn-danger">
+                            &lt;</button>
+
+                        <button [disabled]="isLast()" (click)="goToRight()"type="button" class="btn btn-danger">&gt;</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
